@@ -1,0 +1,158 @@
+@font-face {
+    font-family: 'Huvet';
+    src: url(../font/Huvet-Free/Huvet-Roughfree.ttf) format('truetype');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    widows: 100vw;
+    height: 100vh;
+    position: fixed;
+}
+
+#header {
+    display: flex;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+}
+
+#navBar {
+    font-family: 'Huvet';
+    font-size: 4vh;
+    list-style: none;
+    display: flex;
+    padding-left: 12vw;
+}
+
+#navBar li {
+    padding-left: 1vw;
+    padding-right: 4vw;
+    padding-top: 2vh;
+    color: rgb(100, 52, 30);
+}
+
+#navBar li:hover {
+    text-decoration: underline;
+}
+
+
+#logo {
+    background-image: url(../images/logotype-3745683_1920.png);
+    background-size: cover;
+    width: 160px;
+    height: 120px;
+    padding: 0;
+    margin: 0;
+    margin-left: 18vw;
+}
+
+@media screen and (max-width: 425px) {
+    #header {
+        display: initial;
+    }
+
+    #logo {
+        width: 120px;
+        height: 90px;
+        margin-left: 2vw;
+    }
+
+    #navBar {
+        display: initial;
+        font-size: 2vh;
+    }
+
+    #navBar ul {
+        left: 0;
+        top: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 426px) {
+
+    #logo {
+        width: 140px;
+        height: 100px;
+        margin-left: 5vw;
+    }
+
+    #navBar {
+        font-size: 3vh;
+        padding-left: 8vw;
+    }
+
+    #navBar ul {
+        left: 0;
+        top: 15px;
+    }
+}
+
+#mainBG {
+    margin: 0;
+    padding: 0;
+    border-spacing: 0;
+    position: absolute;
+    left: -50vw;
+}
+
+#mainBG tr {
+    margin: 0;
+    padding: 0;
+    border-spacing: 0;
+}
+
+#mainBG tr td {
+    margin: 0;
+    padding: 0;
+    border-spacing: 0;
+}
+
+#img1 {
+    background-image: url(../images/img1.jpg);
+    background-size: cover;
+    width: 80vw;
+    height: 80vh;
+    margin: 0;
+    padding: 0;
+}
+
+#img2 {
+    background-image: url(../images/img2.jpg);
+    background-size: cover;
+    width: 80vw;
+    height: 80vh;
+    margin: 0;
+    padding: 0;
+}
+
+#img2:hover {
+    transform: translateZ(40px);
+}
+
+#img3 {
+    background-image: url(../images/img3.jpg);
+    background-size: cover;
+    width: 80vw;
+    height: 80vh;
+    margin: 0;
+    padding: 0;
+}
+
+#img3:hover {
+    transform: translateZ(40px);
+}
+
+#img4 {
+    background-image: url(../images/img4.png);
+    background-size: cover;
+    width: 80vw;
+    height: 80vh;
+    margin: 0;
+    padding: 0;
+}
+
+#img4:hover {
+    transform: translateZ(40px);
+}
